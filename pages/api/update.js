@@ -3,7 +3,7 @@ const { SiteClient } = require('datocms-client')
 
 async function updateRequest(request, response) {
     if (request.method === 'POST') {
-        const TOKEN = 'ecb80bbec9a2e648d135577b0562b3'
+        const TOKEN = 'your DatoCMS full acess api token'
 
         const client = new SiteClient(TOKEN)
 
